@@ -1,4 +1,4 @@
-# 亚马逊品牌市场调研 Skill · V1
+# cici-amazon-brand-research · v1.0.0
 
 输入品牌名和亚马逊站点，研究品牌经营、产品类目、竞品、目标国家官网和消费者抱怨，并给出有来源的市场调研报告及数据。适合品牌经营诊断与增长机会分析。
 
@@ -7,11 +7,11 @@
 在支持Skill的助手中安装本文件夹后输入：
 
 ```text
-使用 $amazon-brand-research 调研 Anker 在 Amazon.de 的经营表现。
+使用 $cici-amazon-brand-research 调研 Anker 在 Amazon.de 的经营表现。
 ```
 
 ```text
-使用 $amazon-brand-research 调研一个家居品牌在 Amazon.com 的市场，优先分析消费者的耐用性与售后抱怨，报告输出为Word和Excel。
+使用 $cici-amazon-brand-research 调研一个家居品牌在 Amazon.com 的市场，优先分析消费者的耐用性与售后抱怨，报告输出为Word和Excel。
 ```
 
 默认近12个完整月逐月研究，相关类目最近一个月Top100，2—3款重点产品，每款3—5款直接竞品。官网以目标国家为主；当地官网缺失时查美国或全球官网。社媒优先目标国家近12个月公开内容，Amazon低星评价独立统计。

@@ -1,4 +1,0 @@
-interface:
-  display_name: "亚马逊品牌市场调研"
-  short_description: "输入品牌与目标站点，生成经营诊断、竞品研究与消费者抱怨分析报告"
-  default_prompt: "使用 $amazon-brand-research 调研品牌【品牌名】在【Amazon站点】的经营表现、竞品和消费者抱怨，并提出Skill优化建议。"

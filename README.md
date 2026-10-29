@@ -47,6 +47,12 @@ GitHub Social preview 上传说明见：
 zach-listing-health-checker
 ```
 
+安装品牌调研 Skill（v1.0.0）时，可以直接说：
+
+```text
+帮我从 cicicicicileeee/amazon-skills 仓库的 skills/cici-amazon-brand-research 安装 cici-amazon-brand-research 这个 skill。
+```
+
 手动安装仍然保留，但只作为降级方案：
 [docs/manual-install.md](./docs/manual-install.md)
 
@@ -56,6 +62,7 @@ zach-listing-health-checker
 
 | Skill | 解决什么问题 | 数据源 | 状态 |
 |---|---|---|---|
+| [cici-amazon-brand-research](./skills/cici-amazon-brand-research/README.md) | 研究品牌经营、重点产品竞对、当地官网与消费者抱怨 | Sorftime MCP + 公开网页或用户授权数据 | v1.0.0 |
 | [zach-product-research](./skills/zach-product-research/README.md) | 用 Sorftime 做选品分析，输出市场调研三件套与原始数据 | Sorftime MCP | Ready |
 | [zach-feature-demand-validator](./skills/zach-feature-demand-validator/README.md) | 验证一个微创新功能到底是不是用户真实在意 | Sorftime + WebSearch 或本地评论包 | Ready |
 | [zach-listing-health-checker](./skills/zach-listing-health-checker/README.md) | 用真实消费者视角巡检 Listing 健康状态 | Amazon 网页抓取 | Ready |

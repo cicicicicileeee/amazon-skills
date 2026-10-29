@@ -5,7 +5,7 @@
 ## 1. 克隆仓库
 
 ```bash
-git clone https://github.com/zach22-1999/amazon-skills.git
+git clone https://github.com/cicicicicileeee/amazon-skills.git
 cd amazon-skills
 ```
 
@@ -13,6 +13,7 @@ cd amazon-skills
 
 当前示例：
 
+- [`skills/cici-amazon-brand-research`](../skills/cici-amazon-brand-research/README.md)（v1.0.0）
 - `skills/zach-feature-demand-validator`
 - `skills/zach-listing-health-checker`
 
@@ -33,6 +34,12 @@ cp -R skills/zach-feature-demand-validator /path/to/your-workspace/.claude/skill
 cp -R skills/zach-listing-health-checker /path/to/your-workspace/.claude/skills/
 ```
 
+安装品牌调研 Skill（保留整个目录及其支持文件）：
+
+```bash
+cp -R skills/cici-amazon-brand-research /path/to/your-workspace/.claude/skills/
+```
+
 ### Codex / Cursor
 
 优先还是让 AI 读取仓库中的 skill 并帮你完成安装。  
@@ -44,4 +51,10 @@ cp -R skills/zach-listing-health-checker /path/to/your-workspace/.claude/skills/
 
 ```text
 请使用 zach-feature-demand-validator，帮我验证 air fryer 加 steam 功能在美国站是不是真需求。
+```
+
+品牌调研 Skill 安装完成后，对 AI 说：
+
+```text
+使用 $cici-amazon-brand-research 调研 Anker 在 Amazon.de 的经营表现。
 ```

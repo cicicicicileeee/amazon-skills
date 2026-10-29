@@ -1,11 +1,11 @@
 ---
-name: amazon-brand-research
+name: cici-amazon-brand-research
 description: "输入品牌名与目标亚马逊站点，研究品牌经营、类目Top100、重点产品竞对、当地官网和消费者抱怨，产出有来源的市场调研报告、数据与Skill优化提案。适用于品牌经营诊断和增长机会研究。"
 metadata:
   version: "1.0.0"
 ---
 
-# 亚马逊品牌市场调研
+# cici-amazon-brand-research
 
 从品牌与目标站点出发，生成面向业务负责人的中文市场研究。必填仅 `brand`、`marketplace`；其他参数使用下述默认值。它是由智能体调用可用工具执行的工作流，不是绕开数据权限的独立爬虫。
 
